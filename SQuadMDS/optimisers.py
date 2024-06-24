@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.manifold import _barnes_hut_tsne
 from numpy import sqrt
-from gradients import compute_quartet_grads
+from .gradients import compute_quartet_grads
 import numba
 
 def precompile():
